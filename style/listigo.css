@@ -1,0 +1,40 @@
+.navbar .navbar-toggler {
+    border-color: rgba(9, 162, 255, 0.85);
+}
+
+.navbar .navbar-toggler:hover,
+.navbar .navbar-toggler:focus {
+    background-color: rgba(9, 162, 255, 0.85);
+}
+
+body {
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titler h2 {
+    margin-bottom: 20px;
+    color: rgba(9, 162, 255, 0.85);
+    text-align: center;
+}
+
+.footer-page {
+    background-color: #2b2f31;
+}
+
+.footer-page a:link,
+.footer-page a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-page a:hover,
+.footer-page a:focus {
+    color: rgba(9, 162, 255, 0.85);
+    text-decoration: none;
+}
+
+.footer-copyright {
+    background-color: #222425;
+    color: white;
+}
