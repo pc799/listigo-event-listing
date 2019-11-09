@@ -7,9 +7,13 @@
     background-color: rgba(9, 162, 255, 0.85);
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     padding-top: 50px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .titler h2 {
@@ -20,6 +24,9 @@ body {
 
 .footer-page {
     background-color: #2b2f31;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-page a:link,
